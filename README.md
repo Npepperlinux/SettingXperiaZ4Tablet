@@ -13,3 +13,7 @@ Ubuntu 20.04 LTS (adb使えればそんなに問題無いと思うけどねー)
 # au
 製作者の手元にau版Xperiaがないため未作成です。
 もしau版をお持ちであり、かつ、作成に協力していただけるのであればコミット・プルリクエストをしていただけると嬉しいです。
+# Licence
+These codes are licensed CC BY 4.0,see LICENSE.
+
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
