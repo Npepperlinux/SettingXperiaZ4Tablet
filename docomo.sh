@@ -5,7 +5,6 @@ read -p "Do you install tools 'adb'? (y/n) :"
 	[nN]) sudo apt install android-tools-adb
 	esac
 adb shell pm list packages -f com.nttdocomo.android.applicationmanager
-adb pull /oem/priv-app/DcmAppManager_sha1/DcmAppManager_sha1.apk=com.nttdocomo.android.applicationmanager
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.applicationmanager
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.areamail
 adb shell pm uninstall -k --user 0 com.nttdocomo.android.cloudset
