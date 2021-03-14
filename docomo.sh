@@ -51,3 +51,7 @@ adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
 adb shell pm uninstall -k --user 0 com.google.android.play.games
 adb shell pm uninstall -k --user 0 com.google.android.youtube
 adb shell pm uninstall -k --user 0 com.mobisystems.fileman
+read -p "Reboot Device (y/n) :" 
+	[yY]) adb shell reboot;echo "Finish!"
+	[nN]) echo "Finish!"
+	esac
