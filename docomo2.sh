@@ -190,4 +190,4 @@ adb shell pm uninstall --user 0  com.somc.so05g.manual
 adb shell pm uninstall --user 0  com.uievolution.gguide.android
 
 # 端末の再起動
-adb reboot
+#adb reboot
